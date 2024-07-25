@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|c:\\new folder\\new folder (2)\\towerdefence2.5\\assets\\scripts\\coin\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\coin\\coin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Coin.cs",
+              "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Coin\\Coin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Coin\\Coin.cs",
+              "ToolTip": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Coin\\Coin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Coin\\Coin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T02:10:22.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MapController.cs",
+              "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\MapController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MapController.cs",
+              "ToolTip": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\MapController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MapController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T02:02:54.544Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
