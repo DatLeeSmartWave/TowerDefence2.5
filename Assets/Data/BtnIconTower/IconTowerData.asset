@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45a9286e620a398488829ea186fd6378, type: 3}
   m_Name: IconTowerData
   m_EditorClassIdentifier: 
-  imgIcon: {fileID: 21300000, guid: 144bc6b4bd4bb414983e2b36fa14208a, type: 3}
+  imgIcon: {fileID: 21300000, guid: 7d80179281fcece4a969437386f2a6ca, type: 3}
   prefabTower: {fileID: 53962421197312112, guid: 0d70e5ebe39bf874081076817025590f, type: 3}
   price: 0
