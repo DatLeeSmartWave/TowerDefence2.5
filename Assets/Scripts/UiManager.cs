@@ -97,7 +97,10 @@ public class UiManager : MonoBehaviour {
     }
 
     public void LoadScene(string sceneName) {
+        if(PlayerPrefs.GetInt(Constant.MyHeart)>0)
         SceneManager.LoadScene(sceneName);
+        else
+        SceneManager.LoadScene("MainScene");
     }
 
     public void NextLevel() {
@@ -106,11 +109,11 @@ public class UiManager : MonoBehaviour {
     }
 
     public void LoadLevel(int idx) {
-        if (PlayerPrefs.GetInt(Constants.PassedLevel) >= idx &&
-            PlayerPrefs.GetInt(Constant.MyHeart) > 0) {
+        //if (PlayerPrefs.GetInt(Constants.PassedLevel) >= idx &&
+            //PlayerPrefs.GetInt(Constant.MyHeart) > 0) {
             RfHolder.Ins.mapControllerData.currentLevel = idx;
             LoadScene("SampleScene");
-        }
+       // }
     }
 
     public void NextWizard() {

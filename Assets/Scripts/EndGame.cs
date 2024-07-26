@@ -18,6 +18,9 @@ public class EndGame : MonoBehaviour {
                 float distance = Vector3.Distance(transform.position, enemy.transform.position);
                 if (distance < 1f) {
                     if (countPanelEndGame == 1) {
+                        int heartNumber = PlayerPrefs.GetInt(Constant.MyHeart);
+                        heartNumber--;
+                        PlayerPrefs.SetInt(Constant.MyHeart, heartNumber);
                         RfHolder.Ins.uiManager.OnPanel(RfHolder.Ins.uiManager.losePanel);
                         Time.timeScale = 0f;
                         countPanelEndGame--;

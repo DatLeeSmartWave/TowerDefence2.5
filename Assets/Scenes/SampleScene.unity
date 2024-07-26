@@ -2481,6 +2481,7 @@ MonoBehaviour:
   wizardsProfiles: []
   onIcons: []
   offIcons: []
+  myHeartText: {fileID: 0}
   myMoneyText: {fileID: 0}
   playerData: {fileID: 0}
 --- !u!1 &1385520010
@@ -4068,8 +4069,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: a96ebf7f467b26840aae9f26bfc80fcd, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

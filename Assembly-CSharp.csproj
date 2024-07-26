@@ -61,12 +61,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2023.2.15f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Coin\Data\TutorialData.cs" />
     <Compile Include="Assets\Scripts\WallTutorial.cs" />
     <Compile Include="Assets\Scripts\Tutorial2.cs" />
-    <Compile Include="Assets\Scripts\Data\TutorialData.cs" />
     <Compile Include="Assets\Scripts\RfTutorial.cs" />
     <Compile Include="Assets\Scripts\ClearPlayPrebs.cs" />
-    <Compile Include="Assets\Scripts\Data\IconTowerData.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\EndGame.cs" />
     <Compile Include="Assets\Scripts\Player\Tower.cs" />
@@ -74,6 +73,7 @@
     <Compile Include="Assets\Scripts\Map\WallNotUse.cs" />
     <Compile Include="Assets\Scripts\Singleton.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Coin\Data\PlayerData.cs" />
     <Compile Include="Assets\Scripts\Tower2Tutorial.cs" />
     <Compile Include="Assets\Scripts\EndPointTutorial.cs" />
     <Compile Include="Assets\Scripts\Tutorial1.cs" />
@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\Map\IconSpawn.cs" />
     <Compile Include="Assets\Scripts\Map\WallSpawn.cs" />
     <Compile Include="Assets\Scripts\MapController.cs" />
+    <Compile Include="Assets\Scripts\Coin\Data\MapControllerData.cs" />
     <Compile Include="Assets\Scripts\Map\ItemSupport.cs" />
     <Compile Include="Assets\Scripts\Player\TowerMove.cs" />
     <Compile Include="Assets\Scripts\Constant.cs" />
@@ -94,14 +95,13 @@
     <Compile Include="Assets\Scripts\Map\Map.cs" />
     <Compile Include="Assets\Scripts\Player\Bullets.cs" />
     <Compile Include="Assets\Scripts\Player\TowerAttack.cs" />
-    <Compile Include="Assets\Scripts\Data\MapControllerData.cs" />
     <Compile Include="Assets\Scripts\IconTutorial.cs" />
     <Compile Include="Assets\Scripts\IPooledObject.cs" />
     <Compile Include="Assets\Scripts\TutorialManager.cs" />
     <Compile Include="Assets\Scripts\LoadingBar.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\UiManager.cs" />
-    <Compile Include="Assets\Scripts\Data\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\Coin\Data\IconTowerData.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
   </ItemGroup>
   <ItemGroup>
