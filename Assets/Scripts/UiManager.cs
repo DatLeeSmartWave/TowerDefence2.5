@@ -22,6 +22,8 @@ public class UiManager : MonoBehaviour {
     public GameObject[] onIcons;
     public GameObject[] offIcons;
     int myMoney;
+    int myHeart;
+    [SerializeField] TextMeshProUGUI myHeartText;
     public TextMeshProUGUI myMoneyText;
     public PlayerData playerData;
 
@@ -47,7 +49,9 @@ public class UiManager : MonoBehaviour {
             nextButton.onClick.AddListener(NextWizard);
             previousButton.onClick.AddListener(PreviousWizard);
             myMoney = playerData.coin + PlayerPrefs.GetInt("Coin");
-            myMoneyText.text = myMoney.ToString();  
+            myMoneyText.text = myMoney.ToString();
+            myHeart = PlayerPrefs.GetInt(Constant.MyHeart);
+            myHeartText.text = myHeart.ToString();
             UpdateWizardProfiles();
             LoadButtonStates();
         }
@@ -102,7 +106,8 @@ public class UiManager : MonoBehaviour {
     }
 
     public void LoadLevel(int idx) {
-        if (PlayerPrefs.GetInt(Constants.PassedLevel) >= idx) {
+        if (PlayerPrefs.GetInt(Constants.PassedLevel) >= idx &&
+            PlayerPrefs.GetInt(Constant.MyHeart) > 0) {
             RfHolder.Ins.mapControllerData.currentLevel = idx;
             LoadScene("SampleScene");
         }
@@ -131,7 +136,6 @@ public class UiManager : MonoBehaviour {
             onIcons[2].SetActive(!isOn);
             offIcons[2].SetActive(isOn);
         }
-
         PlayerPrefs.SetInt(buttonName + "State", isOn ? 0 : 1); // Lưu trạng thái mới
         PlayerPrefs.Save();
     }
@@ -146,6 +150,46 @@ public class UiManager : MonoBehaviour {
         bool isOn = PlayerPrefs.GetInt(buttonName + "State", 1) == 1; // Mặc định là bật (1)
         onIcon.SetActive(isOn);
         offIcon.SetActive(!isOn);
+    }
+
+    public void BuyCoinBtn(int number) {
+        int newMoney = myMoney + number;
+        myMoney = newMoney;
+        PlayerPrefs.SetInt("Coin", newMoney);
+        myMoneyText.text = myMoney.ToString();
+    }
+
+    public void BuyItemBtn(int number) {
+        if (number <= myMoney) {
+            int newNumber = myMoney - number;
+            myMoney = newNumber;
+            PlayerPrefs.SetInt("Coin", newNumber);
+            myMoneyText.text = myMoney.ToString();
+        }
+    }
+    
+    public void BuyHeartBtn(int price) {
+        if (price <= myMoney) {
+            myHeart++;
+            myHeartText.text = myHeart.ToString();
+            PlayerPrefs.SetInt(Constant.MyHeart, myHeart);
+            int newNumber = myMoney - price;
+            myMoney = newNumber;
+            PlayerPrefs.SetInt("Coin", newNumber);
+            myMoneyText.text = myMoney.ToString();
+        }
+    }
+
+    public void LoadSceneBtn(string sceneName) {
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void PauseGamne() {
+        Time.timeScale = 0;
+    }
+
+    public void ResumeGame() {
+        Time.timeScale = 1;
     }
 
     private void UpdateWizardProfiles() {

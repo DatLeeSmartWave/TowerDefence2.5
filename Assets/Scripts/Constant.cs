@@ -7,4 +7,5 @@ public class Constant : MonoBehaviour
     public const string player = "Player";
     public const string enemy = "Enemy";
     public const string scene_MainMenu = "MainMenu";
+    public const string MyHeart = "MyHeart";
 }
