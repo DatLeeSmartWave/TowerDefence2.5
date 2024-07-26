@@ -188,12 +188,16 @@ public class UiManager : MonoBehaviour {
     }
 
     public void PauseGamne() {
-        Time.timeScale = 0;
+        //Time.timeScale = 0;
+        if (Time.timeScale == 0) 
+            Time.timeScale = 1;
+        else
+            Time.timeScale = 0;
     }
 
-    public void ResumeGame() {
-        Time.timeScale = 1;
-    }
+    //public void ResumeGame() {
+    //    Time.timeScale = 1;
+    //}
 
     private void UpdateWizardProfiles() {
         for (int i = 0; i < wizardsProfiles.Length; i++) {
