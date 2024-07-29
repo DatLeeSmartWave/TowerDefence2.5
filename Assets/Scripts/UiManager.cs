@@ -23,7 +23,11 @@ public class UiManager : MonoBehaviour {
     public GameObject[] offIcons;
     int myMoney;
     int myHeart;
+    int slot;
+    int iceNumber;
     [SerializeField] TextMeshProUGUI myHeartText;
+    [SerializeField] TextMeshProUGUI slotText;
+    [SerializeField] TextMeshProUGUI iceNumberText;
     public TextMeshProUGUI myMoneyText;
     public PlayerData playerData;
 
@@ -52,6 +56,10 @@ public class UiManager : MonoBehaviour {
             myMoneyText.text = myMoney.ToString();
             myHeart = PlayerPrefs.GetInt(Constant.MyHeart);
             myHeartText.text = myHeart.ToString();
+            slot = PlayerPrefs.GetInt(Constant.Slot);
+            slotText.text = slot.ToString();
+            iceNumber = PlayerPrefs.GetInt(Constant.IceNumber);
+            iceNumberText.text = iceNumber.ToString();
             UpdateWizardProfiles();
             LoadButtonStates();
         }
@@ -164,9 +172,12 @@ public class UiManager : MonoBehaviour {
         myMoneyText.text = myMoney.ToString();
     }
 
-    public void BuyItemBtn(int number) {
-        if (number <= myMoney) {
-            int newNumber = myMoney - number;
+    public void BuySlotBtn(int price) {
+        if (price <= myMoney) {
+            slot++;
+            slotText.text = slot.ToString();
+            PlayerPrefs.SetInt(Constant.Slot, slot);
+            int newNumber = myMoney - price;
             myMoney = newNumber;
             PlayerPrefs.SetInt("Coin", newNumber);
             myMoneyText.text = myMoney.ToString();
@@ -184,8 +195,20 @@ public class UiManager : MonoBehaviour {
             myMoneyText.text = myMoney.ToString();
         }
     }
+    
+    public void BuyIceBtn(int price) {
+        if (price <= myMoney) {
+            iceNumber++;
+            iceNumberText.text = iceNumber.ToString();
+            PlayerPrefs.SetInt(Constant.IceNumber, iceNumber);
+            int newNumber = myMoney - price;
+            myMoney = newNumber;
+            PlayerPrefs.SetInt("Coin", newNumber);
+            myMoneyText.text = myMoney.ToString();
+        }
+    }
 
-    public void LoadSceneBtn(string sceneName) {
+    public void LoadSceneBtn(string sceneName) {    
         SceneManager.LoadScene(sceneName);
     }
 

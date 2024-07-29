@@ -11,6 +11,8 @@ TagManager:
   - Stone
   - TextCoin
   - Ice
+  - WallNotUse
+  - WallMove
   layers:
   - Default
   - TransparentFX

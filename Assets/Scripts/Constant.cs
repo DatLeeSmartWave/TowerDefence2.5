@@ -10,4 +10,6 @@ public class Constant : MonoBehaviour
     public const string MyHeart = "MyHeart";
     public const string Music = "Music";
     public const string Sound = "Sound";
+    public const string Slot = "Slot";
+    public const string IceNumber = "IceNumber";
 }
