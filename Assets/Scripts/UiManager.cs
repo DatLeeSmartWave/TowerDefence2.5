@@ -54,7 +54,8 @@ public class UiManager : MonoBehaviour {
             previousButton.onClick.AddListener(PreviousWizard);
             myMoney = playerData.coin + PlayerPrefs.GetInt("Coin");
             myMoneyText.text = myMoney.ToString();
-            myHeart = PlayerPrefs.GetInt(Constant.MyHeart);
+            myHeart = PlayerPrefs.GetInt(Constant.MyHeart,2);
+            PlayerPrefs.SetInt(Constant.MyHeart,myHeart);
             myHeartText.text = myHeart.ToString();
             slot = PlayerPrefs.GetInt(Constant.Slot);
             slotText.text = slot.ToString();
@@ -230,23 +231,23 @@ public class UiManager : MonoBehaviour {
         }
     }
 
-    void Update() {
-        if (Input.touchCount > 0) {
-            foreach (Touch touch in Input.touches) {
-                if (touch.phase == TouchPhase.Began) {
-                    Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
-                    Collider2D[] colliders = Physics2D.OverlapPointAll(touchPosition);
-                    foreach (Collider2D collider in colliders) {
-                        string tag = collider.tag;
-                        if (tagToPlayerPref.ContainsKey(tag) && PlayerPrefs.GetInt(tagToPlayerPref[tag]) == 0) {
-                            OnPanel(informationPanel);
-                            Time.timeScale = 0;
-                            PlayerPrefs.SetInt(tagToPlayerPref[tag], 1);
-                            break;
-                        }
-                    }
-                }
-            }
-        }
-    }
+    //void Update() {
+    //    if (Input.touchCount > 0) {
+    //        foreach (Touch touch in Input.touches) {
+    //            if (touch.phase == TouchPhase.Began) {
+    //                Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
+    //                Collider2D[] colliders = Physics2D.OverlapPointAll(touchPosition);
+    //                foreach (Collider2D collider in colliders) {
+    //                    string tag = collider.tag;
+    //                    if (tagToPlayerPref.ContainsKey(tag) && PlayerPrefs.GetInt(tagToPlayerPref[tag]) == 0) {
+    //                        OnPanel(informationPanel);
+    //                        Time.timeScale = 0;
+    //                        PlayerPrefs.SetInt(tagToPlayerPref[tag], 1);
+    //                        break;
+    //                    }
+    //                }
+    //            }
+    //        }
+    //    }
+    //}
 }

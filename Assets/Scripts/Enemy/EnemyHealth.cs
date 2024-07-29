@@ -35,12 +35,12 @@ public class EnemyHealth : MonoBehaviour {
         CheckListEnemy();
     }
 
-    public void OnTriggerEnter2D(Collider2D col) {
-        if (col.gameObject.CompareTag("Bullets")) {
-            TakeDamage(col.gameObject.GetComponent<Bullets>().damage);
-            Destroy(col.gameObject);
-        }
-    }
+    //public void OnTriggerEnter2D(Collider2D col) {
+    //    if (col.gameObject.CompareTag("Bullets")) {
+    //        TakeDamage(col.gameObject.GetComponent<Bullets>().damage);
+    //        Destroy(col.gameObject);
+    //    }
+    //}
 
     public void CheckListEnemy() {
         if (RfHolder.Ins.map.enemy.Count == 0) {

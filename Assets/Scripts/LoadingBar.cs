@@ -28,10 +28,10 @@ public class LoadingBar : MonoBehaviour {
   }
 
   public void CheckTutorialData() {
-    if(tutorialData.firstTimePlaying) {
+    //if(tutorialData.firstTimePlaying) {
       SceneManager.LoadScene("Tutorial");
-    } else {
+    //} else {
       SceneManager.LoadScene("MainScene");
-    }
+   // }
   }
 }
