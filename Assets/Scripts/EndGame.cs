@@ -22,6 +22,7 @@ public class EndGame : MonoBehaviour {
                         heartNumber--;
                         PlayerPrefs.SetInt(Constant.MyHeart, heartNumber);
                         RfHolder.Ins.uiManager.OnPanel(RfHolder.Ins.uiManager.losePanel);
+                        FindObjectOfType<SoundManager>().PlaySound("loseSound");
                         Time.timeScale = 0f;
                         countPanelEndGame--;
                     }

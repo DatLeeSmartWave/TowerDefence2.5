@@ -45,7 +45,7 @@ public class EnemyHealth : MonoBehaviour {
     public void CheckListEnemy() {
         if (RfHolder.Ins.map.enemy.Count == 0) {
             RfHolder.Ins.uiManager.OnPanel(RfHolder.Ins.uiManager.winPanel);
-
+            FindObjectOfType<SoundManager>().PlaySound("winSound");
             int currentLevel = RfHolder.Ins.mapControllerData.currentLevel;
             int passedLevel = PlayerPrefs.GetInt(Constants.PassedLevel, 0);
             if (currentLevel >= passedLevel) {

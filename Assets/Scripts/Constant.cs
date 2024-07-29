@@ -8,4 +8,6 @@ public class Constant : MonoBehaviour
     public const string enemy = "Enemy";
     public const string scene_MainMenu = "MainMenu";
     public const string MyHeart = "MyHeart";
+    public const string Music = "Music";
+    public const string Sound = "Sound";
 }

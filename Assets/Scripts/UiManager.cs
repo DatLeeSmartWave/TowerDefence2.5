@@ -132,9 +132,11 @@ public class UiManager : MonoBehaviour {
         if (buttonName == "Music") {
             onIcons[0].SetActive(!isOn);
             offIcons[0].SetActive(isOn);
+            FindObjectOfType<MusicManager>().SwitchMusic();
         } else if (buttonName == "Sound") {
             onIcons[1].SetActive(!isOn);
             offIcons[1].SetActive(isOn);
+            FindObjectOfType<SoundManager>().SwitchSound();
         } else if (buttonName == "Vibrate") {
             onIcons[2].SetActive(!isOn);
             offIcons[2].SetActive(isOn);
