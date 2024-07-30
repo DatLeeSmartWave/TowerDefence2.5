@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|c:\\new folder\\new folder (2)\\towerdefence2.5\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|c:\\new folder\\new folder (2)\\towerdefence2.5\\assets\\scripts\\player\\spawnicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\spawnicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\iap\\iapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iap\\iapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|c:\\new folder\\new folder (2)\\towerdefence2.5\\assets\\scripts\\iap\\shopitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iap\\shopitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\map\\iconspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map\\iconspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\rfholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rfholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\enemy\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\map\\itemsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map\\itemsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\iap\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iap\\shopmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\iap\\itemiap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iap\\itemiap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|c:\\new folder\\new folder (2)\\towerdefence2.5\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\rfholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rfholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|c:\\new folder\\new folder (2)\\towerdefence2.5\\assets\\scripts\\iap\\shopitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iap\\shopitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\iap\\itemiap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iap\\itemiap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +51,8 @@
       "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\map\\iconspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map\\iconspawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\map\\itemsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\map\\itemsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\enemy\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\loadingbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -72,7 +76,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Iap\\IAPManager.cs",
               "ToolTip": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Iap\\IAPManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Iap\\IAPManager.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAD4vysAAAAyAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAD0AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T02:45:38.75Z",
               "IsPinned": true,
@@ -80,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "ShopItemUI.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Iap\\ShopItemUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Iap\\ShopItemUI.cs",
@@ -94,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ItemIAP.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Iap\\ItemIAP.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Iap\\ItemIAP.cs",
@@ -107,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Singleton.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Singleton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Singleton.cs",
@@ -120,25 +124,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ShopManager.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Iap\\ShopManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Iap\\ShopManager.cs",
               "ToolTip": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Iap\\ShopManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Iap\\ShopManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T02:45:39.91Z"
+              "WhenOpened": "2024-07-30T02:45:39.91Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 240,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "UiManager.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\UiManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiManager.cs",
@@ -152,7 +157,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "SpawnIcon.cs",
+              "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Player\\SpawnIcon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\SpawnIcon.cs",
+              "ToolTip": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Player\\SpawnIcon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\SpawnIcon.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwC8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:10:04.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RfHolder.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\RfHolder.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RfHolder.cs",
@@ -160,11 +178,12 @@
               "RelativeToolTip": "Assets\\Scripts\\RfHolder.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T03:03:05.811Z"
+              "WhenOpened": "2024-07-30T03:03:05.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "IconSpawn.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Map\\IconSpawn.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Map\\IconSpawn.cs",
@@ -172,11 +191,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Map\\IconSpawn.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T09:20:51.846Z"
+              "WhenOpened": "2024-07-29T09:20:51.846Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "EnemyMove.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Enemy\\EnemyMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyMove.cs",
@@ -184,11 +204,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyMove.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T09:10:43.568Z"
+              "WhenOpened": "2024-07-29T09:10:43.568Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
@@ -200,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "ItemSupport.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Map\\ItemSupport.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Map\\ItemSupport.cs",
@@ -208,11 +229,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Map\\ItemSupport.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:16:11.11Z"
+              "WhenOpened": "2024-07-29T07:16:11.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "EndGame.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\EndGame.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EndGame.cs",
@@ -224,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "LoadingBar.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\LoadingBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LoadingBar.cs",

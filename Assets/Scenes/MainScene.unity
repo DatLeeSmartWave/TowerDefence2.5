@@ -4775,6 +4775,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840724962}
   m_CullTransparentMesh: 1
+--- !u!1 &868540716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 868540718}
+  - component: {fileID: 868540717}
+  m_Layer: 0
+  m_Name: RfHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &868540717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868540716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77dccce5912aa54aa1a649878b1a67e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 0}
+  darkPanel: {fileID: 0}
+  prefabsWallUse: {fileID: 1301310402006386009, guid: 60e5f100ac4e60740b9ee14a2b03b7fd, type: 3}
+  wallNotUse: {fileID: 0}
+  itemSupport: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  uiManager: {fileID: 1928316830}
+  coinPlayer: {fileID: 0}
+  mapControllerData: {fileID: 11400000, guid: d144e4b352183b444870b79bc48ab3fe, type: 2}
+  shopManager: {fileID: 2082972651}
+--- !u!4 &868540718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868540716}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.2880905, y: -0.0698148, z: -0.002568923}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &912370950
 GameObject:
   m_ObjectHideFlags: 0
@@ -13123,3 +13177,4 @@ SceneRoots:
   - {fileID: 1587209050}
   - {fileID: 8523308746930626741}
   - {fileID: 4698343803721010510}
+  - {fileID: 868540718}
