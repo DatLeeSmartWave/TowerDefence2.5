@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ice ammo_0: 2237874560838386761
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

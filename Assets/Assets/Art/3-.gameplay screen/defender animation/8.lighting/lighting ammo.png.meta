@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lighting ammo_0: 8602763682787773136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

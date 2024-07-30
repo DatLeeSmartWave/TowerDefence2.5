@@ -204,7 +204,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      poof1_0: 191739122019402266
+      poof1_1: 3436356071090050731
+      poof1_2: 2180149634898646634
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

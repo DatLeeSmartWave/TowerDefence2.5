@@ -106,7 +106,7 @@ MonoBehaviour:
   speedMove: 1
   target: {fileID: 0}
   index: 0
-  maxHealth: 10
+  maxHealth: 20
   currentHealth: 0
   coinMax: 5
   coinMin: 3

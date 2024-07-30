@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fire ammo_0: 454000618555810492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

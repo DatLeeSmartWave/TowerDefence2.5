@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      garden background_0: -4258774149866663321
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

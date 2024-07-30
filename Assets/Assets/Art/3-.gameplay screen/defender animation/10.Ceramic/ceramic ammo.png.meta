@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ceramic ammo_0: -352591217854532658
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

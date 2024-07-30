@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      earth ammo_0: -8189261895702704087
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      clay ammo_0: -1813070642492108515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

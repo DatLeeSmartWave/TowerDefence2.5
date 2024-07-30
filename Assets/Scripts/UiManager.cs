@@ -23,6 +23,8 @@ public class UiManager : MonoBehaviour {
     public GameObject[] offIcons;
     [SerializeField] GameObject levelNoticePanel;
     [SerializeField] GameObject heartNoticePanel;
+    [SerializeField] RectTransform shopPanel;
+    Vector2 firstPos;
     int myMoney;
     int myHeart;
     int slot;
@@ -52,6 +54,7 @@ public class UiManager : MonoBehaviour {
             StartCoroutine(StartCountdown());
         }
         if (SceneManager.GetActiveScene().name == "MainScene") {
+            firstPos = shopPanel.anchoredPosition;
             nextButton.onClick.AddListener(NextWizard);
             previousButton.onClick.AddListener(PreviousWizard);
             myMoney = playerData.coin + PlayerPrefs.GetInt("Coin");
@@ -138,6 +141,14 @@ public class UiManager : MonoBehaviour {
     IEnumerator HideObject(GameObject obj) {
         yield return new WaitForSeconds(1f);
         obj.SetActive(false);
+    }
+
+    public void ShowPanel(RectTransform panel) {
+        panel.anchoredPosition = new Vector2(0, 0);
+    }
+
+    public void HidePanel(RectTransform panel) {
+        panel.anchoredPosition = new Vector2(11111, 1000);
     }
 
     public void NextWizard() {

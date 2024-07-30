@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mud ammo_0: -5122002299850412906
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
