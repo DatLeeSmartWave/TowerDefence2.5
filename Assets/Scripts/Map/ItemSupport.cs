@@ -12,6 +12,7 @@ public class ItemSupport : MonoBehaviour {
     [SerializeField] GameObject icePrefab;
     [SerializeField] TextMeshProUGUI slotText;
     [SerializeField] TextMeshProUGUI iceNumberText;
+    [SerializeField] GameObject blackPanel;
     bool hasSpawn;
 
     public void Awake() {
@@ -58,7 +59,10 @@ public class ItemSupport : MonoBehaviour {
     }
 
     public void EnableSpawnICe() {
-        hasSpawn = true;
+        if(iceNumber > 0) {
+            blackPanel.SetActive(true);
+            hasSpawn = true;
+        }
     }
 
     void Update() {
@@ -75,6 +79,7 @@ public class ItemSupport : MonoBehaviour {
                                 iceNumberText.text = iceNumber.ToString();
                                 PlayerPrefs.SetInt(Constant.IceNumber, iceNumber);
                                 hasSpawn = false;
+                                blackPanel.SetActive(false);
                             }
                         }
                     }
