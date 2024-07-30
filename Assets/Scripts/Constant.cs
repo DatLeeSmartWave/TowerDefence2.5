@@ -13,3 +13,4 @@ public class Constant : MonoBehaviour
     public const string Slot = "Slot";
     public const string IceNumber = "IceNumber";
 }
+    

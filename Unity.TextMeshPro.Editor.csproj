@@ -107,8 +107,8 @@
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor\TMP\TMP_MarkupTagUpdateUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor\TMP\TMP_SpriteAssetMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor\TMP\HDRP\TMP_BaseHDRPUnlitShaderGUI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor\TMP\TMP_PostBuildProcessHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor\TMP\PropertyDrawers\TMP_MarkToBaseAdjustmentRecordPropertyDrawer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor\TMP\TMP_PostBuildProcessHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor\TMP\TMP_BaseEditorPanel.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor\TMP\TMP_ColorGradientAssetMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@2.0.0\Editor\TMP\TMP_PackageUtilities.cs" />
@@ -623,6 +623,10 @@
     </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>Assets\DOTween\Editor\DOTweenEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
