@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\iap\\shopitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iap\\shopitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|c:\\new folder\\new folder (2)\\towerdefence2.5\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|c:\\new folder\\new folder (2)\\towerdefence2.5\\assets\\scripts\\iap\\shopitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iap\\shopitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\iap\\iapmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,11 +23,11 @@
       "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iap\\itemiap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|c:\\new folder\\new folder (2)\\towerdefence2.5\\assets\\scripts\\rfholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\rfholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rfholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|c:\\new folder\\new folder (2)\\towerdefence2.5\\assets\\scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|C:\\New folder\\New folder (2)\\TowerDefence2.5\\assets\\scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8F79C5C-D9E7-C285-4F54-66D113F6348A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -75,12 +75,11 @@
               "ViewState": "AQIAAFAAAAAAAAAAAAAAACsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T02:45:38.75Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ShopItemUI.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\Iap\\ShopItemUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Iap\\ShopItemUI.cs",
@@ -103,8 +102,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T02:45:39.146Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -117,8 +115,7 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T02:53:48.731Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Iap\\ShopManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T02:45:39.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T02:45:39.91Z"
             }
           ]
         },
@@ -141,13 +137,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UiManager.cs",
               "DocumentMoniker": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\UiManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UiManager.cs",
               "ToolTip": "C:\\New folder\\New folder (2)\\TowerDefence2.5\\Assets\\Scripts\\UiManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UiManager.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAAACwAAAAcAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAIEAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T01:50:24.09Z",
               "IsPinned": true,
@@ -163,8 +159,7 @@
               "RelativeToolTip": "Assets\\Scripts\\RfHolder.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T03:03:05.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T03:03:05.811Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Map\\IconSpawn.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T09:20:51.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T09:20:51.846Z"
             },
             {
               "$type": "Document",
@@ -189,8 +183,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyMove.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T09:10:43.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T09:10:43.568Z"
             },
             {
               "$type": "Document",
@@ -202,8 +195,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T08:12:35.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T08:12:35.825Z"
             },
             {
               "$type": "Document",
@@ -215,8 +207,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Map\\ItemSupport.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T07:16:11.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T07:16:11.11Z"
             },
             {
               "$type": "Document",
@@ -228,8 +219,7 @@
               "RelativeToolTip": "Assets\\Scripts\\EndGame.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T03:18:10.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T03:18:10.642Z"
             },
             {
               "$type": "Document",
@@ -241,8 +231,7 @@
               "RelativeToolTip": "Assets\\Scripts\\LoadingBar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T09:38:49.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T09:38:49.342Z"
             }
           ]
         }

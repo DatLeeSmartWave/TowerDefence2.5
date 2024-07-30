@@ -21,6 +21,8 @@ public class UiManager : MonoBehaviour {
     public GameObject[] wizardsProfiles;
     public GameObject[] onIcons;
     public GameObject[] offIcons;
+    [SerializeField] GameObject levelNoticePanel;
+    [SerializeField] GameObject heartNoticePanel;
     int myMoney;
     int myHeart;
     int slot;
@@ -54,8 +56,8 @@ public class UiManager : MonoBehaviour {
             previousButton.onClick.AddListener(PreviousWizard);
             myMoney = playerData.coin + PlayerPrefs.GetInt("Coin");
             myMoneyText.text = myMoney.ToString();
-            myHeart = PlayerPrefs.GetInt(Constant.MyHeart,2);
-            PlayerPrefs.SetInt(Constant.MyHeart,myHeart);
+            myHeart = PlayerPrefs.GetInt(Constant.MyHeart, 2);
+            PlayerPrefs.SetInt(Constant.MyHeart, myHeart);
             myHeartText.text = myHeart.ToString();
             slot = PlayerPrefs.GetInt(Constant.Slot);
             slotText.text = slot.ToString();
@@ -106,10 +108,10 @@ public class UiManager : MonoBehaviour {
     }
 
     public void LoadScene(string sceneName) {
-        if(PlayerPrefs.GetInt(Constant.MyHeart)>0)
-        SceneManager.LoadScene(sceneName);
+        if (PlayerPrefs.GetInt(Constant.MyHeart) > 0)
+            SceneManager.LoadScene(sceneName);
         else
-        SceneManager.LoadScene("MainScene");
+            SceneManager.LoadScene("MainScene");
     }
 
     public void NextLevel() {
@@ -122,7 +124,20 @@ public class UiManager : MonoBehaviour {
             PlayerPrefs.GetInt(Constant.MyHeart) > 0) {
             RfHolder.Ins.mapControllerData.currentLevel = idx;
             LoadScene("SampleScene");
+        } else if (PlayerPrefs.GetInt(Constant.MyHeart) <= 0) {
+            heartNoticePanel.SetActive(true);
+            StartCoroutine(HideObject(heartNoticePanel));
+            StartCoroutine(HideObject(levelNoticePanel));
+        } else if (PlayerPrefs.GetInt(Constants.PassedLevel) < idx) {
+            levelNoticePanel.SetActive(true);
+            StartCoroutine(HideObject(levelNoticePanel));
+            StartCoroutine(HideObject(heartNoticePanel));
         }
+    }
+
+    IEnumerator HideObject(GameObject obj) {
+        yield return new WaitForSeconds(1f);
+        obj.SetActive(false);
     }
 
     public void NextWizard() {
@@ -184,7 +199,7 @@ public class UiManager : MonoBehaviour {
             myMoneyText.text = myMoney.ToString();
         }
     }
-    
+
     public void BuyHeartBtn(int price) {
         if (price <= myMoney) {
             myHeart++;
@@ -196,7 +211,7 @@ public class UiManager : MonoBehaviour {
             myMoneyText.text = myMoney.ToString();
         }
     }
-    
+
     public void BuyIceBtn(int price) {
         if (price <= myMoney) {
             iceNumber++;
@@ -209,13 +224,13 @@ public class UiManager : MonoBehaviour {
         }
     }
 
-    public void LoadSceneBtn(string sceneName) {    
+    public void LoadSceneBtn(string sceneName) {
         SceneManager.LoadScene(sceneName);
     }
 
     public void PauseGamne() {
         //Time.timeScale = 0;
-        if (Time.timeScale == 0) 
+        if (Time.timeScale == 0)
             Time.timeScale = 1;
         else
             Time.timeScale = 0;
