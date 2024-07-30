@@ -2956,6 +2956,9 @@ RectTransform:
   - {fileID: 1934511884}
   - {fileID: 182373009}
   - {fileID: 2082972647}
+  - {fileID: 2058773598}
+  - {fileID: 912370951}
+  - {fileID: 1112482035}
   m_Father: {fileID: 1928316828}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4804,7 +4807,7 @@ RectTransform:
   m_Children:
   - {fileID: 129326761}
   - {fileID: 41011801}
-  m_Father: {fileID: 1928316828}
+  m_Father: {fileID: 378798069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -5999,7 +6002,7 @@ RectTransform:
   m_Children:
   - {fileID: 1347223470}
   - {fileID: 1684607917}
-  m_Father: {fileID: 1928316828}
+  m_Father: {fileID: 378798069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -11408,9 +11411,6 @@ RectTransform:
   - {fileID: 723034863}
   - {fileID: 378798069}
   - {fileID: 416786580}
-  - {fileID: 2058773598}
-  - {fileID: 912370951}
-  - {fileID: 1112482035}
   - {fileID: 2064748183}
   - {fileID: 639856070}
   m_Father: {fileID: 0}
@@ -11468,6 +11468,8 @@ MonoBehaviour:
   - {fileID: 111889915}
   - {fileID: 308387671}
   - {fileID: 1958933786}
+  levelNoticePanel: {fileID: 0}
+  heartNoticePanel: {fileID: 0}
   myHeartText: {fileID: 1222965859}
   slotText: {fileID: 41011799}
   iceNumberText: {fileID: 1684607918}
@@ -11927,7 +11929,7 @@ RectTransform:
   m_Children:
   - {fileID: 840724963}
   - {fileID: 1222965861}
-  m_Father: {fileID: 1928316828}
+  m_Father: {fileID: 378798069}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -12560,7 +12562,7 @@ MonoBehaviour:
     price: 0
   - posPack: 5
     numRuby: 30
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 6e6beb54dd1ceaf489e5a79f76ce7891, type: 3}
     price: 0
   - posPack: 6
     numRuby: 40
@@ -12572,7 +12574,7 @@ MonoBehaviour:
     price: 0
   - posPack: 8
     numRuby: 100
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 6e6beb54dd1ceaf489e5a79f76ce7891, type: 3}
     price: 0
   iAPManager: {fileID: 2082972652}
 --- !u!114 &2082972652
