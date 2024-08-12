@@ -1297,6 +1297,10 @@
       <Project>{E098A688-D75F-D489-2CC0-DC8FF56FD334}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Runtime.csproj">
+      <Project>{358110F0-AA97-C4B7-D5B5-98505FA52BEA}</Project>
+      <Name>IngameDebugConsole.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
       <Project>{0070554D-9E66-0354-3F56-59195C5BB814}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
@@ -1312,6 +1316,10 @@
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{00EEA9A9-73AB-7189-EA1E-DFF195322BAC}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="IngameDebugConsole.Editor.csproj">
+      <Project>{8B94083D-8ECB-ABC9-BE73-363204429895}</Project>
+      <Name>IngameDebugConsole.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

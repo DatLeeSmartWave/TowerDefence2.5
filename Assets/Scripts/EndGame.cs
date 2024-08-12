@@ -16,7 +16,7 @@ public class EndGame : MonoBehaviour {
         foreach (GameObject enemy in RfHolder.Ins.map.enemy) {
             if (enemy != null) {
                 float distance = Vector3.Distance(transform.position, enemy.transform.position);
-                if (distance < 1f) {
+                if (distance < .1f) {
                     if (countPanelEndGame == 1) {
                         int heartNumber = PlayerPrefs.GetInt(Constant.MyHeart);
                         heartNumber--;
