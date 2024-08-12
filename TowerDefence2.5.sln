@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro.Editor", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A8F79C5C-D9E7-C285-4F54-66D113F6348A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngameDebugConsole.Runtime", "IngameDebugConsole.Runtime.csproj", "{358110F0-AA97-C4B7-D5B5-98505FA52BEA}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.UI", "UnityEditor.UI.csproj", "{635FEC7A-3B02-786B-8A3D-06CF7CAADF9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro", "Unity.TextMeshPro.csproj", "{36B157B2-CE5F-D59B-33BB-D5B8BB1D27D1}"
@@ -16,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Sprite.Editor", "Unity.2D.Sprite.Editor.csproj", "{8C23C8E3-BC8F-E468-FB6B-A2D3514F4D87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTween.Modules", "DOTween.Modules.csproj", "{C9740F9B-4DB8-E830-95F2-FD1B81C3C8BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IngameDebugConsole.Editor", "IngameDebugConsole.Editor.csproj", "{8B94083D-8ECB-ABC9-BE73-363204429895}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,10 @@ Global
 		{A8F79C5C-D9E7-C285-4F54-66D113F6348A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8F79C5C-D9E7-C285-4F54-66D113F6348A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8F79C5C-D9E7-C285-4F54-66D113F6348A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358110F0-AA97-C4B7-D5B5-98505FA52BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358110F0-AA97-C4B7-D5B5-98505FA52BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358110F0-AA97-C4B7-D5B5-98505FA52BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358110F0-AA97-C4B7-D5B5-98505FA52BEA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{635FEC7A-3B02-786B-8A3D-06CF7CAADF9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{635FEC7A-3B02-786B-8A3D-06CF7CAADF9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{635FEC7A-3B02-786B-8A3D-06CF7CAADF9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -55,6 +63,10 @@ Global
 		{C9740F9B-4DB8-E830-95F2-FD1B81C3C8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9740F9B-4DB8-E830-95F2-FD1B81C3C8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9740F9B-4DB8-E830-95F2-FD1B81C3C8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B94083D-8ECB-ABC9-BE73-363204429895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B94083D-8ECB-ABC9-BE73-363204429895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B94083D-8ECB-ABC9-BE73-363204429895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B94083D-8ECB-ABC9-BE73-363204429895}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
