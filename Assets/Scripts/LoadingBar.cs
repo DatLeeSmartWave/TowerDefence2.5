@@ -29,7 +29,7 @@ public class LoadingBar : MonoBehaviour {
 
   public void CheckTutorialData() {
     //if(tutorialData.firstTimePlaying) {
-      SceneManager.LoadScene("Tutorial");
+      //SceneManager.LoadScene("Tutorial");
     //} else {
       SceneManager.LoadScene("MainScene");
    // }

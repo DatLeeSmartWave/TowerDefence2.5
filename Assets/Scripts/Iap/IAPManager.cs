@@ -18,7 +18,7 @@ public class IAPManager : Singleton<IAPManager>, IDetailedStoreListener {
     const string PACK_4 = "com.forestwardens.pack4";
     const string PACK_5 = "com.forestwardens.pack5";
     const string PACK_6 = "com.forestwardens.pack6";
-    const string PACK_7 = "com.forestwardens.pack7";
+    const string PACK_7 = "com.forestwardens.pack7";    
     const string PACK_8 = "com.forestwardens.pack8";
 
     IStoreController m_StoreController;

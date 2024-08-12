@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1339161608376749590}
   - component: {fileID: 8675344492557770751}
   m_Layer: 0
-  m_Name: Enemy 2
+  m_Name: Enemy 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
   speedMove: 1
   target: {fileID: 0}
   index: 0
-  maxHealth: 10
+  maxHealth: 30
   currentHealth: 0
   coinMax: 5
   coinMin: 3

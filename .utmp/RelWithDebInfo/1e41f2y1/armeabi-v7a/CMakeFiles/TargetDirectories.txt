@@ -1,0 +1,5 @@
+C:/New folder/New folder (2)/TowerDefence2.5/.utmp/RelWithDebInfo/1e41f2y1/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/New folder/New folder (2)/TowerDefence2.5/.utmp/RelWithDebInfo/1e41f2y1/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/New folder/New folder (2)/TowerDefence2.5/.utmp/RelWithDebInfo/1e41f2y1/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/New folder/New folder (2)/TowerDefence2.5/.utmp/RelWithDebInfo/1e41f2y1/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/New folder/New folder (2)/TowerDefence2.5/.utmp/RelWithDebInfo/1e41f2y1/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir
