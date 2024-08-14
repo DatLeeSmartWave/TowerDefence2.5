@@ -12,14 +12,14 @@ public class IAPManager : Singleton<IAPManager>, IDetailedStoreListener {
     public UiManager uiManager;
     private List<ItemIAP> listItems = new List<ItemIAP>();
 
-    const string PACK_1 = "com.forestwardens.pack1";
-    const string PACK_2 = "com.forestwardens.pack2";
-    const string PACK_3 = "com.forestwardens.pack3";
-    const string PACK_4 = "com.forestwardens.pack4";
-    const string PACK_5 = "com.forestwardens.pack5";
-    const string PACK_6 = "com.forestwardens.pack6";
-    const string PACK_7 = "com.forestwardens.pack7";    
-    const string PACK_8 = "com.forestwardens.pack8";
+    const string PACK_1 = "com.battlefielddefense.pack1";
+    const string PACK_2 = "com.battlefielddefense.pack2";
+    const string PACK_3 = "com.battlefielddefense.pack3";
+    const string PACK_4 = "com.battlefielddefense.pack4";
+    const string PACK_5 = "com.battlefielddefense.pack5";
+    const string PACK_6 = "com.battlefielddefense.pack6";
+    const string PACK_7 = "com.battlefielddefense.pack7";    
+    const string PACK_8 = "com.battlefielddefense.pack8";
 
     IStoreController m_StoreController;
     int numberHint;
